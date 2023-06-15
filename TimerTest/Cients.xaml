@@ -1,0 +1,25 @@
+﻿<Page x:Class="Toy.Cients"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Toy"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Cients">
+
+    <Grid>
+        <Grid Background="LawnGreen">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="79*"/>
+                <RowDefinition Height="11*"/>
+
+            </Grid.RowDefinitions>
+            <Frame x:Name="Test"></Frame>
+            <Image HorizontalAlignment="Left" Height="100" Margin="313,134,0,0" VerticalAlignment="Top" Width="189" Source="/Resources/Image2.png"/>
+            <TextBox HorizontalAlignment="Left" Margin="146,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+            <TextBlock HorizontalAlignment="Left" Margin="146,234,0,0" TextWrapping="Wrap" Text="Test" VerticalAlignment="Top"/>
+            <Button Content="Back" Name="Btn_Back" Click="Btn_Back_Cick" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="35" Width="266"/>
+        </Grid>
+    </Grid>
+</Page>
